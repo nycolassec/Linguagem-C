@@ -13,7 +13,7 @@ int main (void){
 
     printf("Qual a sua escolha (1 á 4): ");
     scanf("%d",&escolha);
-
+    
     switch(escolha){
         case 1:
         printf("A escolha foi %s", opcoes[0]);
