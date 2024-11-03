@@ -4,14 +4,26 @@
 #define TAM 5
 
 int main() {
-    char tamanhos[TAM] = {"P", "M", "G", "A", "Q"};
+    char tamanhos[TAM] = {'P', 'M', 'G', 'A', 'Q'};
     int distancias[TAM] = {45, 76, 12, 75, 24};
-    float precos[TAM] = {12.50, 50.50, 99.90, 14.50, 70.25}
+    float precos[TAM] = {12.50, 50.50, 99.90, 14.50, 70.25};
 
-    // Modificando o valor com um valor do usuário
-    printf("Escolha o primeiro valor dos arrays:\n");
+    printf("\nArray de tamanhos\n");
+    for(int i = 0; i < TAM; i++){
+        printf("\tIndex %d - %c\n", i, tamanhos[i]);
+    };
 
-    for (int i = 0, ) {}
+    printf("\nArray de distancias\n");
+    for(int i = 0; i < TAM; i++){
+        printf("\tIndex %d - %d\n", i, distancias[i]);
+    };
+
+    printf("\nArray de precos\n");
+    for(int i = 0; i < TAM; i++){
+        printf("\tIndex %d - %f\n", i, precos[i] );
+    };
+
+
 
     return 0;
-}
+};
