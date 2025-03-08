@@ -12,6 +12,7 @@ int fatorial(int num, int fat) {
     fatorial((num - 1), (fat * num));
 }
 
+
 int main() {
     int num;
     int fat;
